@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "561800888047",
+    "project_id": "final-health-care-5a01f",
+    "storage_bucket": "final-health-care-5a01f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561800888047:android:616c67057813eb6186e51a",
+        "android_client_info": {
+          "package_name": "com.group.shcms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "561800888047-rg5f9dor52pupva0mm23ntk256gm3248.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB58Dxy2T_7Awhtd8SrjlLjxKXUfjgmQQM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "561800888047-rg5f9dor52pupva0mm23ntk256gm3248.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
