@@ -70,7 +70,7 @@
                 android:layout_marginLeft="8dp"
                 android:layout_marginTop="17dp"
                 android:maxLines="1"
-                android:text="Timming"
+                android:text="Timing"
                 android:textColor="#b8b8b8"
                 android:textSize="12sp" />
 
@@ -127,7 +127,7 @@
                 android:layout_marginStart="7dp"
                 android:layout_marginLeft="7dp"
                 android:layout_marginTop="6dp"
-                android:text="Appointement type"
+                android:text="Appointment type"
                 android:textColor="#b8b8b8"
                 android:textSize="12sp" />
 
@@ -147,7 +147,7 @@
 
             <Button
                 android:id="@+id/voir_fiche_btn2"
-                android:layout_width="72dp"
+                android:layout_width="90dp"
                 android:layout_height="26dp"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentRight="true"
@@ -159,7 +159,7 @@
                 android:layout_marginRight="33dp"
                 android:layout_marginBottom="14dp"
                 android:background="@drawable/button_radius_accent_color"
-                android:text="Voir fiche"
+                android:text="SELECT"
 
                 android:textSize="10sp" />
 

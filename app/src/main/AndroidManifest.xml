@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.group.shcms">
+    package="com.ensias.healthcareapp">
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -12,29 +12,31 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name="com.group.shcms.MyCalendarDoctorActivity"></activity>
-        <activity android:name="com.group.shcms.TestActivity" />
-        <activity android:name="com.group.shcms.AppointementActivity" />
-        <activity android:name="com.group.shcms.FicheInfo" />
-        <activity android:name="com.group.shcms.PatientInfoActivity" />
-        <activity android:name="com.group.shcms.DossierMedical" />
-        <activity android:name="com.group.shcms.ChatActivity" />
-        <activity android:name="com.group.shcms.PatientRequestPage" />
-        <activity android:name="com.group.shcms.DoctorHomeActivity" />
-        <activity android:name="com.group.shcms.EditProfileDoctorActivity" />
-        <activity android:name="com.group.shcms.ConfirmedAppointmensActivity" />
-        <activity android:name="com.group.shcms.PatientAppointementsActivity" />
-        <activity android:name="com.group.shcms.ProfilePatientActivity" />
-        <activity android:name="com.group.shcms.MyDoctorsAvtivity" />
-        <activity android:name="com.group.shcms.ProfileDoctorActivity" />
-        <activity android:name="com.group.shcms.EditProfilePatientActivity" />
-        <activity android:name="com.group.shcms.DoctorAppointementActivity" />
-        <activity android:name="com.group.shcms.FicheActivity" />
-        <activity android:name="com.group.shcms.MyPatientsActivity" />
-        <activity android:name="com.group.shcms.SearchPatActivity" />
-        <activity android:name="com.group.shcms.FirstSigninActivity" />
-        <activity android:name="com.group.shcms.HomeActivity" />
+        <activity android:name=".MyCalendarDoctorActivity"></activity>
+        <activity android:name=".TestActivity" />
+        <activity android:name=".AppointementActivity" />
+        <activity android:name=".FicheInfo" />
+        <activity android:name=".PatientInfoActivity" />
+        <activity android:name=".DossierMedical" />
+        <activity android:name=".ChatActivity" />
+        <activity android:name=".PatientRequestPage" />
+        <activity android:name=".DoctorHomeActivity" />
+        <activity android:name=".EditProfileDoctorActivity" />
+        <activity android:name=".ConfirmedAppointmensActivity" />
+        <activity android:name=".PatientAppointementsActivity" />
+        <activity android:name=".ProfilePatientActivity" />
+        <activity android:name=".MyDoctorsAvtivity" />
+        <activity android:name=".ProfileDoctorActivity" />
+        <activity android:name=".EditProfilePatientActivity" />
+        <activity android:name=".DoctorAppointementActivity" />
+        <activity android:name=".FicheActivity" />
+        <activity android:name=".MyPatientsActivity" />
+        <activity android:name=".SearchPatActivity" />
+        <activity android:name=".FirstSigninActivity" />
+        <activity android:name=".HomeActivity"
+           />
         <activity android:name=".MainActivity"
             android:noHistory="true">
             <intent-filter>

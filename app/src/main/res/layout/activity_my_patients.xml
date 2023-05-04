@@ -28,13 +28,21 @@
                 android:text="My Patients"
                 android:textColor="#FFFFFF"
                 android:textSize="26sp" />
+
         </LinearLayout>
         <!-- RECYCLER VIEW -->
+
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/ListMyPatients"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"         />
+            android:layout_height="match_parent" />
 
     </LinearLayout>
-
+    <TextView
+        android:id="@+id/empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="visible"
+        android:text="no_data_available" />
 </androidx.constraintlayout.widget.ConstraintLayout>

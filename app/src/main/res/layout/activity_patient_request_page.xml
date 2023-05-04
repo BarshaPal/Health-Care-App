@@ -12,11 +12,11 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
     <TextView
-        android:id="@+id/empty_view"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:visibility="gone"
-        android:textColor="@android:color/white"
-        android:text="NO PATIENT REQUEST" />
+    android:id="@+id/empty_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:visibility="gone"
+    android:text="no_data_available" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E5E5E5"
+    android:background="#F6F4F4"
     tools:context=".DoctorHomeActivity">
 
 
@@ -43,8 +43,8 @@
     <Button
         android:id="@+id/signOutBtn"
         android:layout_width="154dp"
-        android:layout_height="23dp"
-        android:layout_marginBottom="4dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="10dp"
         android:background="#C62828"
         android:text="SignOut"
         android:textColor="#ffff"
@@ -192,7 +192,7 @@
                 android:layout_marginStart="105dp"
                 android:layout_marginLeft="105dp"
                 android:layout_marginBottom="55dp"
-                android:text="How we can help you oday?"
+                android:text="How we can help you today?"
                 android:textColor="#ffffff"
                 android:textSize="16sp" />
 
@@ -224,7 +224,7 @@
         app:layout_constraintHorizontal_bias="0.792"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/view"
-        app:layout_constraintVertical_bias="0.443"
+        app:layout_constraintVertical_bias="0.4"
         app:srcCompat="@drawable/ic_appointement" />
 
     <ImageView
@@ -237,13 +237,14 @@
         app:layout_constraintHorizontal_bias="0.808"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/view"
-        app:layout_constraintVertical_bias="0.66"
+        app:layout_constraintVertical_bias="0.054"
+        android:layout_marginTop="383dp"
         app:srcCompat="@drawable/ic_request" />
 
     <ImageView
         android:id="@+id/imageView11"
-        android:layout_width="63dp"
-        android:layout_height="61dp"
+        android:layout_width="69dp"
+        android:layout_height="60dp"
         android:layout_marginBottom="80dp"
         android:elevation="19dp"
         app:layout_constraintBottom_toBottomOf="parent"

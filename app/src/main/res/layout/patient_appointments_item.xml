@@ -28,19 +28,6 @@
             android:textColor="#22BE87"
             android:textSize="24sp" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginStart="291dp"
-            android:layout_marginLeft="291dp"
-            android:layout_marginTop="39dp"
-            android:fontFamily="@font/roboto"
-            android:text="Status:"
-            android:textColor="#B9B9B9"
-            android:textSize="14sp" />
 
         <TextView
             android:id="@+id/type"
@@ -49,11 +36,12 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
-            android:layout_marginStart="342dp"
-            android:layout_marginLeft="342dp"
-            android:layout_marginTop="40dp"
+            android:layout_marginStart="283dp"
+            android:layout_marginLeft="283dp"
+            android:layout_marginTop="65dp"
             android:fontFamily="@font/roboto"
             android:text="Accepted"
+            android:textStyle="bold"
             android:textColor="#22BE87"
             android:textSize="14sp" />
 
@@ -64,9 +52,9 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:layout_marginTop="66dp"
-            android:layout_marginEnd="11dp"
-            android:layout_marginRight="11dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
             android:background="@drawable/button_radius_accent_color"
             android:fontFamily="@font/roboto_light"
             android:gravity="center"
@@ -76,7 +64,7 @@
 
         <TextView
             android:id="@+id/patient_phone"
-            android:layout_width="78dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
@@ -109,9 +97,9 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
-            android:layout_marginStart="96dp"
-            android:layout_marginLeft="96dp"
-            android:layout_marginTop="68dp"
+            android:layout_marginStart="97dp"
+            android:layout_marginLeft="97dp"
+            android:layout_marginTop="67dp"
             android:fontFamily="@font/roboto"
             android:text="12/06/2020 at 9pm"
             android:textColor="#22BE87"

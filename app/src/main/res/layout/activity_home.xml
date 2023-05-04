@@ -8,18 +8,19 @@
 
 
     <Button
-        android:id="@+id/signOutBtn"
-        android:layout_width="211dp"
-        android:layout_height="45dp"
-        android:background="@drawable/button_danger"
-        android:text="SignOut"
-        android:textColor="#C62828"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.916" />
+    android:id="@+id/signOutBtn"
+    android:layout_width="154dp"
+    android:layout_height="40dp"
+    android:layout_marginBottom="10dp"
+    android:background="#C62828"
+    android:text="SignOut"
+    android:textColor="#ffff"
+    android:textSize="16sp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.498"
+    app:layout_constraintStart_toStartOf="parent" />
+
 
     <LinearLayout
         android:id="@+id/view"
@@ -50,39 +51,39 @@
 
     <Button
         android:id="@+id/btnRequst"
-        android:layout_width="105dp"
-        android:layout_height="96dp"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
         android:layout_marginTop="81dp"
-        android:layout_marginBottom="237dp"
         android:background="@drawable/button_home"
         android:text="Medical Folder"
         android:textColor="#22BE87"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/signOutBtn"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.47"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/myDoctors"
+        app:layout_constraintHorizontal_bias="0.606"
+        app:layout_constraintStart_toEndOf="@+id/searchBtn"
         app:layout_constraintTop_toBottomOf="@+id/view"
-        app:layout_constraintVertical_bias="0.626" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/myDoctors"
-        android:layout_width="105dp"
-        android:layout_height="96dp"
-        android:layout_marginTop="43dp"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
         android:background="@drawable/button_home"
         android:text="My Doctors"
         android:textColor="#22BE87"
         android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnRequst"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.859"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view" />
+        app:layout_constraintHorizontal_bias="0.828"
+        app:layout_constraintStart_toEndOf="@+id/searchBtn"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/appointement2"
-        android:layout_width="105dp"
-        android:layout_height="96dp"
+        android:layout_width="100dp"
+        android:layout_height="95dp"
         android:layout_marginTop="220dp"
         android:layout_marginBottom="98dp"
         android:background="@drawable/button_home"
@@ -91,15 +92,15 @@
         android:textSize="13sp"
         app:layout_constraintBottom_toTopOf="@+id/signOutBtn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.673"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.266"
+        app:layout_constraintStart_toEndOf="@+id/profile"
         app:layout_constraintTop_toBottomOf="@+id/view"
-        app:layout_constraintVertical_bias="0.671" />
+        app:layout_constraintVertical_bias="0.7" />
 
     <Button
         android:id="@+id/profile"
-        android:layout_width="105dp"
-        android:layout_height="96dp"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
         android:layout_marginTop="220dp"
         android:layout_marginBottom="98dp"
         android:background="@drawable/button_home"
@@ -108,15 +109,15 @@
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/signOutBtn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.241"
+        app:layout_constraintHorizontal_bias="0.313"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view"
-        app:layout_constraintVertical_bias="0.671" />
+        app:layout_constraintVertical_bias="0.7" />
 
     <Button
         android:id="@+id/searchBtn"
-        android:layout_width="105dp"
-        android:layout_height="96dp"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
         android:layout_marginTop="81dp"
         android:layout_marginBottom="237dp"
         android:background="@drawable/button_home"
@@ -125,10 +126,10 @@
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/signOutBtn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintHorizontal_bias="0.114"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view"
-        app:layout_constraintVertical_bias="0.626" />
+        app:layout_constraintVertical_bias="0.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -134,6 +134,7 @@
         android:layout_marginEnd="42dp"
         android:layout_marginRight="42dp"
         android:text="UPDATE PROFILE"
+        android:backgroundTint="#22BE87"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
